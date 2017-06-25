@@ -21,8 +21,11 @@ h2 {
 }
 button{
   color:  #005fb3;
-  background-color:  AliceBlue;
+  background-color:  lavender;
   text-align: center;
   font-size: 34px;
   font-family: 'Patrick Hand SC', cursive;
+}
+.container{
+  text-align: center;
 }
