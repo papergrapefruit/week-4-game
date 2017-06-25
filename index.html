@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en-us">
-
   <head>
     <title>CrystalsCollector Game</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
-
     <!--Bootstrap style sheet -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
@@ -16,21 +13,17 @@
   </head>
   <body>
   <h1>Crystal Game</h1><br>
-  <h2>Number to Match: &emsp;<span id="toMatch"></span><br></h2>
-  <br><div class="container"><br>
+  <h2 id="match">Number to Match: <span id="toMatch"></span></h2>
+  <div class="container">
   <button id="smoky">smoky quartz</button>
   <button id="amethyst">amethyst</button>
   <button id="snow">snowflake</button>
   <button id="salt">salt</button>
-</div>
-<br>
-<h2>Points:&emsp;<span id="points"></span></h2>
-<br><br>
-<div class="container">
-
-<div id=numberSet>
-<h2><p>Wins:<span id=wins></span></p>
-<p>Losses: <span id=losses></span></p>
+  <div class="container">
+    <h2 id="numberSet"></h2>
+      <h2>Points:  <span id="points"></span></h2>
+    <br>
+  <h2><p>Wins:  <span id=wins></span> / Losses: <span id=losses></span></p>
 </h2></div>
     <!-- jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -41,5 +34,4 @@
 </html>
 <!-- TODO:
    // TODO: * The game restarts whenever the player wins or loses.
-    // TODO:  * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
   // TODO:  * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.–>

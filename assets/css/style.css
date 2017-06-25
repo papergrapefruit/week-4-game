@@ -12,20 +12,44 @@ h1{
   font-size: 64px;
   font-family: 'Patrick Hand SC', cursive;
 }
+#match {
+  background-color:  #ffe680;
+  padding: 15px;
+}
+#toMatch {
+  color: Fuchsia;
+  border: 2px;
+  border-style: dashed;
+  padding: 3px;
+}
 h2 {
   color:  #005fb3;
   background-color:  AliceBlue;
   text-align: center;
   font-size: 34px;
   font-family: 'Patrick Hand SC', cursive;
+  padding: 15px;
 }
 button{
-  color:  #005fb3;
+  color:  BlueViolet;
   background-color:  lavender;
   text-align: center;
   font-size: 34px;
   font-family: 'Patrick Hand SC', cursive;
+  padding: 18px;
+  width: 220px;
+}
+#numberSet {
+  background-color: #ccccff;
+  padding: 0;
+  font-size: 40px;
+  color: #6600ff;
 }
 .container{
   text-align: center;
+  padding: 30px;
+}
+
+#points{
+  color: Fuchsia;
 }
